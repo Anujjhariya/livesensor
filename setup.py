@@ -4,11 +4,11 @@ from typing import List
 
 
 
-# def get_requirements()->list[str]:
+def get_requirements()->list[str]:
     
-#     requirements_list = list[str] = []
+    requirements_list : list[str] = []
 
-#     return requirements_list
+    return requirements_list
 
     
 
@@ -21,6 +21,6 @@ version = "0.0.1",
 author = "Anuj",
 author_email = "anujjhariya02@gmail.com",
 packages = find_packages(),
-# install_requires = get_requirements(),    #["pymongo"]
-install_requires =["pymongo"]
+install_requires = get_requirements(),    #["pymongo"]
+# install_requires =["pymongo"]
 )
