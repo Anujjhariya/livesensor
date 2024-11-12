@@ -1,0 +1,9 @@
+pymongo==4.2.0
+
+''' this -e. mean "editable mode" 
+it will automatically start exicuting setup.py file and start finding packages
+when we run requirement.txt file,
+we dont need to run setup.py file
+'''
+
+-e .
